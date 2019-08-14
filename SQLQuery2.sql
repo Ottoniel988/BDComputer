@@ -17,6 +17,9 @@ create table Marca(
 
 go
 
+create table Talla(idtalla int identity,nombretalla varchar(70));
+
+
 -- Tabla Color, la tabla productos depende de esta
 create table Color(
 idColor int primary key not null identity,
